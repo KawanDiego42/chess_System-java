@@ -18,16 +18,4 @@ public class Piece {
 		return board;
 	}
 	
-	public boolean[][] possibleMoves() {
-		
-	}
-	
-	public boolean possibleMove(Position position) {
-		
-	}
-	
-	public boolean isThereAnyPossibleMove() {
-		
-	}
-	
 }
