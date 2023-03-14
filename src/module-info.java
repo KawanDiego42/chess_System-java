@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Kawan
+ *
+ */
+module chessSystem {
+}
