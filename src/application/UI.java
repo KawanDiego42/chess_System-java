@@ -4,6 +4,7 @@ import chess.ChessPiece;
 
 public class UI {
 
+	//Printa o tabuleiro no console
 	public static void printBoard(ChessPiece[][] pieces) {
 		for (int i=0; i<pieces.length; i++) {
 			System.out.print((8 - i) + " ");
@@ -15,6 +16,7 @@ public class UI {
 		System.out.println("  a b c d e f g h");
 	}
 	
+	//Verifica se naquele local do tabuleiro precisa existir uma peça, se não precisar, coloca-se um "-"
 	private static void printPiece(ChessPiece piece) {
 		if (piece == null) {
 			System.out.print("-");

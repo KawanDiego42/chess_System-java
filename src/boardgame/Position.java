@@ -9,6 +9,7 @@ public class Position {
 		
 	}
 
+	//Instancia posição na matriz
 	public Position(Integer row, Integer column) {
 		this.row = row;
 		this.column = column;
